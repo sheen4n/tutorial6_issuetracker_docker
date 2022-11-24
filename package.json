@@ -1,0 +1,44 @@
+{
+  "name": "tutorial6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -w server server/server.js",
+    "react:start": "react-scripts start",
+    "react:build": "react-scripts build",
+    "react:test": "react-scripts test",
+    "react:eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.10.3",
+    "express": "^4.16.4",
+    "graphql": "^16.6.0",
+    "mongodb": "^3.7.3"
+  },
+  "devDependencies": {
+    "@apollo/client": "^3.7.0",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "5.0.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
